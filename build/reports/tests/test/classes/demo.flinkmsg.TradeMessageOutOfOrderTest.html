@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class demo.flinkmsg.TradeMessageOutOfOrderTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class demo.flinkmsg.TradeMessageOutOfOrderTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/demo.flinkmsg.html">demo.flinkmsg</a> &gt; TradeMessageOutOfOrderTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.618s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testOutOfOrderWithTimeWindow2</td>
+<td class="success">2.618s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+INFO  2020-11-19 17:44:08,894 [Test worker] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  2020-11-19 17:44:08,992 [Test worker] org.hibernate.Version: HHH000412: Hibernate Core {5.4.10.Final}
+INFO  2020-11-19 17:44:09,196 [Test worker] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-11-19 17:44:09,335 [Test worker] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+INFO  2020-11-19 17:44:09,618 [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/majie/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.30/e606eac955f55ecf1d8edcccba04eb8ac98088dd/slf4j-simple-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/majie/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-all/5.9.0/213b37f5ea86f6ba7e01af3d01ad97b34fca8883/activemq-all-5.9.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [demo.flinkmsg.TradeMessageOutOfOrderTest], using SpringBootContextLoader
+[Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [demo.flinkmsg.TradeMessageOutOfOrderTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@76bdfccd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3ca790e3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25475928, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6378c954, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7a3a1a62, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a9aad4e, org.springframework.test.context.event.EventPublishingTestExecutionListener@650b352c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@401c62b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6adf89db, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4580a913, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@791e46da, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ab4b2ab]
+[Test worker] INFO demo.flinkmsg.TradeMessageOutOfOrderTest - Starting TradeMessageOutOfOrderTest on jiedeMacBook-Pro.local with PID 20471 (started by majie in /Users/majie/Downloads/flink-msg-demo)
+[Test worker] INFO demo.flinkmsg.TradeMessageOutOfOrderTest - No active profile set, falling back to default profiles: default
+[Test worker] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[Test worker] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 JPA repository interfaces.
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[Test worker] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[Test worker] INFO demo.flinkmsg.TradeMessageOutOfOrderTest - Started TradeMessageOutOfOrderTest in 2.564 seconds (JVM running for 3.415)
+[Test worker] INFO org.apache.flink.api.java.typeutils.TypeExtractor - class demo.flinkmsg.entity.TradeMessage does not contain a getter for field trade
+[Test worker] INFO org.apache.flink.api.java.typeutils.TypeExtractor - class demo.flinkmsg.entity.TradeMessage does not contain a setter for field trade
+[Test worker] INFO org.apache.flink.api.java.typeutils.TypeExtractor - Class class demo.flinkmsg.entity.TradeMessage cannot be used as a POJO type because not all fields are valid POJO fields, and must be processed as GenericType. Please read the Flink documentation on &quot;Data Types &amp; Serialization&quot; for details of the effect on performance.
+[Test worker] INFO org.apache.flink.streaming.api.environment.LocalStreamEnvironment - Running job on local embedded Flink mini cluster
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Starting Flink Mini Cluster
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Starting Metrics Registry
+[Test worker] INFO org.apache.flink.runtime.metrics.MetricRegistryImpl - No metrics reporter configured, no metrics will be exposed/reported.
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Starting RPC Service(s)
+[flink-akka.actor.default-dispatcher-2] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Trying to start actor system at :0
+[flink-metrics-2] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[flink-metrics-2] INFO akka.remote.Remoting - Starting remoting
+[flink-metrics-2] INFO akka.remote.Remoting - Remoting started; listening on addresses :[akka.tcp://flink-metrics@127.0.0.1:52420]
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Actor system started at akka.tcp://flink-metrics@127.0.0.1:52420
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Starting high-availability services
+[Test worker] INFO org.apache.flink.runtime.blob.BlobServer - Created BLOB server storage directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/blobStore-cdcbd473-a1a4-450a-8de7-e0f06100bf3e
+[Test worker] INFO org.apache.flink.runtime.blob.BlobServer - Started BLOB server at 0.0.0.0:52421 - max concurrent requests: 50 - max backlog: 1000
+[Test worker] INFO org.apache.flink.runtime.blob.PermanentBlobCache - Created BLOB cache storage directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/blobStore-a09f1ee5-babc-4e77-accc-004c0c44235a
+[Test worker] INFO org.apache.flink.runtime.blob.TransientBlobCache - Created BLOB cache storage directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/blobStore-00776f20-1111-4e46-a692-904f90a62b1a
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Starting 1 TaskManger(s)
+[Test worker] INFO org.apache.flink.runtime.taskexecutor.TaskManagerRunner - Starting TaskManager with ResourceID: ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b
+[Test worker] INFO org.apache.flink.runtime.taskexecutor.TaskManagerServices - Temporary file directory '/var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T': total 233 GB, usable 160 GB (68.67% usable)
+[Test worker] INFO org.apache.flink.runtime.io.network.buffer.NetworkBufferPool - Allocated 64 MB for network buffer pool (number of memory segments: 2048, bytes per segment: 32768).
+[Test worker] INFO org.apache.flink.runtime.io.network.NetworkEnvironment - Starting the network environment and its components.
+[Test worker] INFO org.apache.flink.runtime.taskexecutor.TaskManagerServices - Limiting managed memory to 0.7 of the currently free heap space (305 MB), memory will be allocated lazily.
+[Test worker] INFO org.apache.flink.runtime.io.disk.iomanager.IOManager - I/O manager uses directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/flink-io-0c29923c-ece7-4bf1-a9c8-0713730a8a3a for spill files.
+[Test worker] INFO org.apache.flink.runtime.taskexecutor.TaskManagerConfiguration - Messages have a max timeout of 10000 ms
+[Test worker] INFO org.apache.flink.runtime.rpc.akka.AkkaRpcService - Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/taskmanager_0 .
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Start job leader service.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.filecache.FileCache - User file cache uses directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/flink-dist-cache-0ff172e1-5333-47c7-a034-c7a58d45249e
+[Test worker] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - Starting rest endpoint.
+[Test worker] WARN org.apache.flink.runtime.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+[Test worker] WARN org.apache.flink.runtime.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'Key: 'web.log.path' , default: null (fallback keys: [{key=jobmanager.web.log.path, isDeprecated=true}])'.
+[Test worker] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - Failed to load web based job submission extension. Probable reason: flink-runtime-web is not in the classpath.
+[Test worker] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - Rest endpoint listening at localhost:52422
+[Test worker] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Proposing leadership to contender org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint@25e05fda @ http://localhost:52422
+[mini-cluster-io-thread-1] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - http://localhost:52422 was granted leadership with leaderSessionID=15acdb35-a188-4389-bd80-321586e7ec12
+[mini-cluster-io-thread-1] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Received confirmation of leadership for leader http://localhost:52422 , session=15acdb35-a188-4389-bd80-321586e7ec12
+[Test worker] INFO org.apache.flink.runtime.rpc.akka.AkkaRpcService - Starting RPC endpoint for org.apache.flink.runtime.resourcemanager.StandaloneResourceManager at akka://flink/user/resourcemanager .
+[Test worker] INFO org.apache.flink.runtime.rpc.akka.AkkaRpcService - Starting RPC endpoint for org.apache.flink.runtime.dispatcher.StandaloneDispatcher at akka://flink/user/dispatcher .
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Proposing leadership to contender org.apache.flink.runtime.resourcemanager.StandaloneResourceManager@3eb327f8 @ akka://flink/user/resourcemanager
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Proposing leadership to contender org.apache.flink.runtime.dispatcher.StandaloneDispatcher@5953c389 @ akka://flink/user/dispatcher
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Dispatcher akka://flink/user/dispatcher was granted leadership with fencing token dbaf6090-d651-4a3a-a8f2-42963e1c6c51
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - ResourceManager akka://flink/user/resourcemanager was granted leadership with fencing token b491df8b566c729d1ab56523fe264a06
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Flink Mini Cluster started successfully
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Recovering all persisted jobs.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.resourcemanager.slotmanager.SlotManager - Starting the SlotManager.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Received confirmation of leadership for leader akka://flink/user/dispatcher , session=dbaf6090-d651-4a3a-a8f2-42963e1c6c51
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Received confirmation of leadership for leader akka://flink/user/resourcemanager , session=1ab56523-fe26-4a06-b491-df8b566c729d
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Connecting to ResourceManager akka://flink/user/resourcemanager(b491df8b566c729d1ab56523fe264a06).
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Resolved ResourceManager address, beginning registration
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Registration at ResourceManager attempt 1 (timeout=100ms)
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Registering TaskManager with ResourceID ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b (akka://flink/user/taskmanager_0) at ResourceManager
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Successful registration at resource manager akka://flink/user/resourcemanager under registration id b1639bedb5c98f03cd3b216503e410fa.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Received JobGraph submission 6d27b1114a44391e281efc229a1ed71c (test2).
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Submitting job 6d27b1114a44391e281efc229a1ed71c (test2).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.rpc.akka.AkkaRpcService - Starting RPC endpoint for org.apache.flink.runtime.jobmaster.JobMaster at akka://flink/user/jobmanager_1 .
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.jobmaster.JobMaster - Initializing job test2 (6d27b1114a44391e281efc229a1ed71c).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.jobmaster.JobMaster - Using restart strategy NoRestartStrategy for test2 (6d27b1114a44391e281efc229a1ed71c).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Job recovers via failover strategy: full graph restart
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.jobmaster.JobMaster - Running initialization on master for job test2 (6d27b1114a44391e281efc229a1ed71c).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.jobmaster.JobMaster - Successfully ran initialization on master in 0 ms.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.jobmaster.JobMaster - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Proposing leadership to contender org.apache.flink.runtime.jobmaster.JobManagerRunner@2c881bdf @ akka://flink/user/jobmanager_1
+[mini-cluster-io-thread-3] INFO org.apache.flink.runtime.jobmaster.JobManagerRunner - JobManager runner for job test2 (6d27b1114a44391e281efc229a1ed71c) was granted leadership with session id 0de744c1-02f5-4c12-a77e-19e6658f513e at akka://flink/user/jobmanager_1.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.JobMaster - Starting execution of job test2 (6d27b1114a44391e281efc229a1ed71c) under job master id a77e19e6658f513e0de744c102f54c12.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Job test2 (6d27b1114a44391e281efc229a1ed71c) switched from state CREATED to RUNNING.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Cannot serve slot request, no ResourceManager connected. Adding as pending request [SlotRequestId{bea483e3dd60d6e1e7c4c42b68f08cd9}]
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from CREATED to SCHEDULED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from CREATED to SCHEDULED.
+[jobmanager-future-thread-1] INFO org.apache.flink.runtime.highavailability.nonha.embedded.EmbeddedLeaderService - Received confirmation of leadership for leader akka://flink/user/jobmanager_1 , session=0de744c1-02f5-4c12-a77e-19e6658f513e
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.JobMaster - Connecting to ResourceManager akka://flink/user/resourcemanager(b491df8b566c729d1ab56523fe264a06)
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.JobMaster - Resolved ResourceManager address, beginning registration
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.JobMaster - Registration at ResourceManager attempt 1 (timeout=100ms)
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Registering job manager a77e19e6658f513e0de744c102f54c12@akka://flink/user/jobmanager_1 for job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Registered job manager a77e19e6658f513e0de744c102f54c12@akka://flink/user/jobmanager_1 for job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.jobmaster.JobMaster - JobManager successfully registered at ResourceManager, leader id: b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{bea483e3dd60d6e1e7c4c42b68f08cd9}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request 019ced5441bfc174c0aed73776ed2378 for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Add job 6d27b1114a44391e281efc229a1ed71c for job leader monitoring.
+[mini-cluster-io-thread-8] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Try to register at job manager akka://flink/user/jobmanager_1 with leader id 0de744c1-02f5-4c12-a77e-19e6658f513e.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Resolved JobManager address, beginning registration
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Registration at JobManager attempt 1 (timeout=100ms)
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Successful registration at job manager akka://flink/user/jobmanager_1 for job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Establish JobManager connection for job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{b9d63cd10677eb403664e90c4c8110d7}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{fb26e60f9caad8f2a3abd9158591ff4f}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request e76e7e878d9fc512ef40ccdd0838bfca for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{9b564343abb036df6dcc1ca5ae13d1be}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{feba9104eacb215a8ae1031e4ee4f6e2}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request 1acc520f737c5c2f503bb7ff7c64e166 for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id 61500fa09dfaf02594154a9c7ee68b1e.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{978c6d4304058a5f5465312a4c21fd2c}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request a6d2b2345333d0aa0c9767c790f515a9 for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id c712d802b22194722e0f8c0ce4203dc5.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{d085fb9fc16d5cbb4c64227bf718b7c8}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request 61500fa09dfaf02594154a9c7ee68b1e for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Requesting new slot [SlotRequestId{57039b0eb3fbf77a967cbec5c68c15eb}] and profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} from resource manager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for 61500fa09dfaf02594154a9c7ee68b1e.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id 774e49df1228803aa89a921de68931a5.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request c712d802b22194722e0f8c0ce4203dc5 for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [019ced5441bfc174c0aed73776ed2378]. Ignoring.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Request slot with profile ResourceProfile{cpuCores=-1.0, heapMemoryInMB=-1, directMemoryInMB=0, nativeMemoryInMB=0, networkMemoryInMB=0} for job 6d27b1114a44391e281efc229a1ed71c with allocation id 3629c1b298dc5bf098ceb5b7697b6792.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for c712d802b22194722e0f8c0ce4203dc5.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [019ced5441bfc174c0aed73776ed2378]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [e76e7e878d9fc512ef40ccdd0838bfca]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request 774e49df1228803aa89a921de68931a5 for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for 774e49df1228803aa89a921de68931a5.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [e76e7e878d9fc512ef40ccdd0838bfca]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [1acc520f737c5c2f503bb7ff7c64e166]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [019ced5441bfc174c0aed73776ed2378]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [e76e7e878d9fc512ef40ccdd0838bfca]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [a6d2b2345333d0aa0c9767c790f515a9]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [1acc520f737c5c2f503bb7ff7c64e166]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [019ced5441bfc174c0aed73776ed2378]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Receive slot request 3629c1b298dc5bf098ceb5b7697b6792 for job 6d27b1114a44391e281efc229a1ed71c from resource manager with leader id b491df8b566c729d1ab56523fe264a06.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [e76e7e878d9fc512ef40ccdd0838bfca]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [a6d2b2345333d0aa0c9767c790f515a9]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Allocated slot for 3629c1b298dc5bf098ceb5b7697b6792.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Offer reserved slots to the leader of job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [1acc520f737c5c2f503bb7ff7c64e166]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [61500fa09dfaf02594154a9c7ee68b1e]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [019ced5441bfc174c0aed73776ed2378]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [a6d2b2345333d0aa0c9767c790f515a9]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [c712d802b22194722e0f8c0ce4203dc5]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [1acc520f737c5c2f503bb7ff7c64e166]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [e76e7e878d9fc512ef40ccdd0838bfca]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [61500fa09dfaf02594154a9c7ee68b1e]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [019ced5441bfc174c0aed73776ed2378]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [a6d2b2345333d0aa0c9767c790f515a9]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [c712d802b22194722e0f8c0ce4203dc5]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [1acc520f737c5c2f503bb7ff7c64e166]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 61500fa09dfaf02594154a9c7ee68b1e.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot c712d802b22194722e0f8c0ce4203dc5.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 61500fa09dfaf02594154a9c7ee68b1e.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot c712d802b22194722e0f8c0ce4203dc5.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 774e49df1228803aa89a921de68931a5.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 61500fa09dfaf02594154a9c7ee68b1e.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 019ced5441bfc174c0aed73776ed2378.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (1/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (2/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (3/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (4/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (5/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (6/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (7/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Map (8/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from SCHEDULED to DEPLOYING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Deploying Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (attempt #0) to ec82cc93-c89c-46d8-aaa9-1a2b5f074a8b @ localhost (dataPort=-1)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [774e49df1228803aa89a921de68931a5]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [e76e7e878d9fc512ef40ccdd0838bfca]. Ignoring.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Received repeated offer for slot [61500fa09dfaf02594154a9c7ee68b1e]. Ignoring.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Source: Collection Source -&gt; Timestamps/Watermarks (1/1).
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from CREATED to DEPLOYING.
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) [DEPLOYING]
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) [DEPLOYING].
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (1/8).
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from CREATED to DEPLOYING.
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) [DEPLOYING]
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) [DEPLOYING].
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (2/8).
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from CREATED to DEPLOYING.
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) [DEPLOYING]
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) [DEPLOYING].
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (3/8).
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from CREATED to DEPLOYING.
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) [DEPLOYING]
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) [DEPLOYING].
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (4/8).
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from CREATED to DEPLOYING.
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) [DEPLOYING]
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) [DEPLOYING].
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (5/8).
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from CREATED to DEPLOYING.
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) [DEPLOYING]
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) [DEPLOYING].
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (6/8).
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from CREATED to DEPLOYING.
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) [DEPLOYING]
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) [DEPLOYING].
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (7/8).
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from CREATED to DEPLOYING.
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) [DEPLOYING]
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) [DEPLOYING].
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Map (8/8).
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from CREATED to DEPLOYING.
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Map (8/8) (cbe63234a67fbf3d210890f501332c32) [DEPLOYING]
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Map (8/8) (cbe63234a67fbf3d210890f501332c32) [DEPLOYING].
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Map (8/8) (cbe63234a67fbf3d210890f501332c32) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) [DEPLOYING].
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from DEPLOYING to RUNNING.
+[Map (4/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from DEPLOYING to RUNNING.
+[Map (7/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from DEPLOYING to RUNNING.
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from DEPLOYING to RUNNING.
+[Map (5/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from DEPLOYING to RUNNING.
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from DEPLOYING to RUNNING.
+[Map (6/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from DEPLOYING to RUNNING.
+[Map (2/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Received task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot a6d2b2345333d0aa0c9767c790f515a9.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot c712d802b22194722e0f8c0ce4203dc5.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 1acc520f737c5c2f503bb7ff7c64e166.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 3629c1b298dc5bf098ceb5b7697b6792.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 774e49df1228803aa89a921de68931a5.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot e76e7e878d9fc512ef40ccdd0838bfca.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.taskexecutor.slot.TaskSlotTable - Activate slot 61500fa09dfaf02594154a9c7ee68b1e.
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from DEPLOYING to RUNNING.
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from DEPLOYING to RUNNING.
+[Map (1/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Map (3/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from DEPLOYING to RUNNING.
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from DEPLOYING to RUNNING.
+[Map (8/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from CREATED to DEPLOYING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Creating FileSystem stream leak safety net for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) [DEPLOYING]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Loading JAR files for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Registering task at network: Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) [DEPLOYING].
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.streaming.runtime.tasks.StreamTask - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from DEPLOYING to RUNNING.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from DEPLOYING to RUNNING.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] WARN org.apache.flink.metrics.MetricGroup - The operator name Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.state.heap.HeapKeyedStateBackend - Initializing heap keyed state backend with stream factory.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from RUNNING to FINISHED.
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6).
+[Source: Collection Source -&gt; Timestamps/Watermarks (1/1)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) [FINISHED]
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Source: Collection Source -&gt; Timestamps/Watermarks 6f4addbb917306658050ba9451aed9c6.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Source: Collection Source -&gt; Timestamps/Watermarks (1/1) (6f4addbb917306658050ba9451aed9c6) switched from RUNNING to FINISHED.
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from RUNNING to FINISHED.
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from RUNNING to FINISHED.
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from RUNNING to FINISHED.
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a).
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0).
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a).
+[Map (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) [FINISHED]
+[Map (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) [FINISHED]
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from RUNNING to FINISHED.
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from RUNNING to FINISHED.
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d).
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (7/8) (b1400e5a265c5b0ab9059497e82ec505).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map fe1c2a79a2a575c3430240c13a3ae63a.
+[Map (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) [FINISHED]
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map c3736c8f8d1d09ed341b53e09d5ca28a.
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (3/8) (b438c6f19e053279ac28f5a3f579ea91).
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from RUNNING to FINISHED.
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (8/8) (cbe63234a67fbf3d210890f501332c32).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map 8d7fbeb648f940bbae6d9d9c2836f36d.
+[Map (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) [FINISHED]
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (1/8) (fe1c2a79a2a575c3430240c13a3ae63a) switched from RUNNING to FINISHED.
+[Map (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (8/8) (cbe63234a67fbf3d210890f501332c32) [FINISHED]
+[Map (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) [FINISHED]
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from RUNNING to FINISHED.
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map b438c6f19e053279ac28f5a3f579ea91.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (4/8) (c3736c8f8d1d09ed341b53e09d5ca28a) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (6/8) (8d7fbeb648f940bbae6d9d9c2836f36d) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+[Map (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) [FINISHED]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+[Map (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) [FINISHED]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map cbe63234a67fbf3d210890f501332c32.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map f985ea4f1c9e4e00e4aeb8c838c40dd0.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (3/8) (b438c6f19e053279ac28f5a3f579ea91) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map b1400e5a265c5b0ab9059497e82ec505.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (8/8) (cbe63234a67fbf3d210890f501332c32) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Map eb0ce44b537b870092cfd821bbd8e44d.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (2/8) (f985ea4f1c9e4e00e4aeb8c838c40dd0) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (7/8) (b1400e5a265c5b0ab9059497e82ec505) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Map (5/8) (eb0ce44b537b870092cfd821bbd8e44d) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) [FINISHED]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) [FINISHED]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) [FINISHED]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) [FINISHED]
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed 4af8703652f8e4877c00a8a312461694.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed 002dd8933f270344c7cbecec15ffb2f0.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) [FINISHED]
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed 9b40f037a33929b62f2ea4f37902a57c.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed b7c124319d8fb7aabeb6331f2ff38b13.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317).
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed 578b33cf2bd2c511ea2cacb46fdf0d1e.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1).
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (2/8) (4af8703652f8e4877c00a8a312461694) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) [FINISHED]
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) [FINISHED]
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed 415d5fc2577e288212a7e2293867d8d1.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed 2079a921c9d6d5daed2756323bcb9317.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (5/8) (002dd8933f270344c7cbecec15ffb2f0) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (3/8) (9b40f037a33929b62f2ea4f37902a57c) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (6/8) (b7c124319d8fb7aabeb6331f2ff38b13) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (1/8) (578b33cf2bd2c511ea2cacb46fdf0d1e) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (4/8) (415d5fc2577e288212a7e2293867d8d1) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (7/8) (2079a921c9d6d5daed2756323bcb9317) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from RUNNING to FINISHED.
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Freeing task resources for Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585).
+[Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8)] INFO org.apache.flink.runtime.taskmanager.Task - Ensuring all FileSystem streams are closed for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) [FINISHED]
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Un-registering task and sending final execution state FINISHED to JobManager for task Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed dd777753602505ddbc00ceb4dd7a7585.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Window(TumblingEventTimeWindows(50000), EventTimeTrigger, AggregateFunction$2, PassThroughWindowFunction) -&gt; Sink: Unnamed (8/8) (dd777753602505ddbc00ceb4dd7a7585) switched from RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.executiongraph.ExecutionGraph - Job test2 (6d27b1114a44391e281efc229a1ed71c) switched from state RUNNING to FINISHED.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.checkpoint.CheckpointCoordinator - Stopping checkpoint coordinator for job 6d27b1114a44391e281efc229a1ed71c.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.checkpoint.StandaloneCompletedCheckpointStore - Shutting down
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Job 6d27b1114a44391e281efc229a1ed71c reached globally terminal state FINISHED.
+[Test worker] INFO org.apache.flink.runtime.minicluster.MiniCluster - Shutting down Flink Mini Cluster
+[Test worker] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - Shutting down rest endpoint.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Stopping TaskExecutor akka://flink/user/taskmanager_0.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.JobMaster - Stopping the JobMaster for job test2(6d27b1114a44391e281efc229a1ed71c).
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Stop job leader service.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.state.TaskExecutorLocalStateStoresManager - Shutting down TaskExecutorLocalStateStoresManager.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Suspending SlotPool.
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.JobMaster - Close ResourceManager connection ac2c93e3a539e2ca58bd60c62aafeb32: JobManager is shutting down..
+[flink-akka.actor.default-dispatcher-2] INFO org.apache.flink.runtime.jobmaster.slotpool.SlotPoolImpl - Stopping SlotPool.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Disconnect job manager a77e19e6658f513e0de744c102f54c12@akka://flink/user/jobmanager_1 for job 6d27b1114a44391e281efc229a1ed71c from the resource manager.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.io.disk.iomanager.IOManager - I/O manager removed spill file directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/flink-io-0c29923c-ece7-4bf1-a9c8-0713730a8a3a
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.io.network.NetworkEnvironment - Shutting down the network environment and its components.
+[ForkJoinPool.commonPool-worker-5] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - Removing cache directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/flink-web-ui
+[ForkJoinPool.commonPool-worker-5] INFO org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint - Shut down complete.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.resourcemanager.StandaloneResourceManager - Shut down cluster because application is in CANCELED, diagnostics DispatcherResourceManagerComponent has been closed..
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Stopping dispatcher akka://flink/user/dispatcher.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.slotmanager.SlotManager - Closing the SlotManager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Stopping all currently running jobs of dispatcher akka://flink/user/dispatcher.
+[flink-akka.actor.default-dispatcher-4] INFO org.apache.flink.runtime.resourcemanager.slotmanager.SlotManager - Suspending the SlotManager.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.rest.handler.legacy.backpressure.StackTraceSampleCoordinator - Shutting down stack trace sample coordinator.
+[flink-akka.actor.default-dispatcher-5] INFO org.apache.flink.runtime.dispatcher.StandaloneDispatcher - Stopped dispatcher akka://flink/user/dispatcher.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.JobLeaderService - Stop job leader service.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.filecache.FileCache - removed file cache directory /var/folders/rh/20ys09k50_q_84yhxxtvst180000gn/T/flink-dist-cache-0ff172e1-5333-47c7-a034-c7a58d45249e
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.taskexecutor.TaskExecutor - Stopped TaskExecutor akka://flink/user/taskmanager_0.
+[flink-metrics-2] INFO akka.remote.RemoteActorRefProvider$RemotingTerminator - Shutting down remote daemon.
+[flink-metrics-2] INFO akka.remote.RemoteActorRefProvider$RemotingTerminator - Remote daemon shut down; proceeding with flushing remote transports.
+[flink-metrics-2] INFO akka.remote.RemoteActorRefProvider$RemotingTerminator - Remoting shut down.
+[flink-metrics-2] INFO org.apache.flink.runtime.rpc.akka.AkkaRpcService - Stopping Akka RPC service.
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.blob.PermanentBlobCache - Shutting down BLOB cache
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.blob.TransientBlobCache - Shutting down BLOB cache
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.blob.BlobServer - Stopped BLOB server at 0.0.0.0:52421
+[flink-akka.actor.default-dispatcher-3] INFO org.apache.flink.runtime.rpc.akka.AkkaRpcService - Stopped Akka RPC service.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 2020-11-19 17:44:12</p>
+</div>
+</div>
+</body>
+</html>

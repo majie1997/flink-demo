@@ -1,0 +1,6 @@
+2020-11-19 17:44:08 [Test worker:0]-[INFO] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-19 17:44:08 [Test worker:98]-[INFO] HHH000412: Hibernate Core {5.4.10.Final}
+2020-11-19 17:44:09 [Test worker:302]-[INFO] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-19 17:44:09 [Test worker:441]-[INFO] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-11-19 17:44:09 [Test worker:724]-[INFO] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-19 17:44:12 [SpringContextShutdownHook:3492]-[INFO] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
